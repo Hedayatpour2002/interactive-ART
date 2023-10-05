@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -45,13 +50,26 @@
                 injected humour, or randomised words which don't
               </p>
               <div class="btn">
-                <a class="contact" href="">Contact us</a>
-                <a class="works" href=""> See our works</a>
+                <a
+                  class="contact wow animate__animated animate__fadeInLeft"
+                  href=""
+                  >Contact us</a
+                >
+                <a
+                  class="works wow animate__animated animate__fadeInRight"
+                  href=""
+                >
+                  See our works</a
+                >
               </div>
             </div>
           </div>
           <div class="right">
-            <img src="images/header-img.svg" alt="" />
+            <img
+              src="images/header-img.svg"
+              alt=""
+              class="wow animate__animated animate__fadeInRight"
+            />
           </div>
         </div>
       </div>
@@ -82,7 +100,11 @@
             </div>
           </div>
           <div class="img">
-            <img src="images/main-img.svg" alt="" />
+            <img
+              src="images/main-img.svg"
+              alt=""
+              class="wow animate__animated animate__jackInTheBox"
+            />
           </div>
         </section>
       </div>
@@ -95,7 +117,7 @@
           </p>
           <div class="comm-logo">
             <div class="con">
-              <div class="item">
+              <div class="item wow animate__animated animate__slideInLeft">
                 <p class="comment">
                   Life before Company was very chaotic we got a lot of phone
                   calls, a lot of mistyped orders. So with Company, the ability
@@ -107,7 +129,7 @@
                   <p class="profile-name">Martin Jones, Creative Cons</p>
                 </div>
               </div>
-              <div class="item">
+              <div class="item wow animate__animated animate__slideInUp">
                 <p class="comment">
                   Life before Company was very chaotic we got a lot of phone
                   calls, a lot of mistyped orders. So with Company, the ability
@@ -119,7 +141,7 @@
                   <p class="profile-name">Martin Jones, Creative Cons</p>
                 </div>
               </div>
-              <div class="item">
+              <div class="item wow animate__animated animate__slideInRight">
                 <p class="comment">
                   Life before Company was very chaotic we got a lot of phone
                   calls, a lot of mistyped orders. So with Company, the ability
@@ -147,22 +169,22 @@
           <h5>PORTFOLIO</h5>
           <h2 class="title">Three Simple Step To Started Working Process</h2>
           <div class="images">
-            <div class="image">
+            <div class="image wow animate__animated animate__fadeIn">
               <img src="images/portfolio-1.jpg" alt="" />
             </div>
-            <div class="image">
+            <div class="image wow animate__animated animate__fadeIn">
               <img src="images/portfolio-2.jpg" alt="" />
             </div>
-            <div class="image">
+            <div class="image wow animate__animated animate__fadeIn">
               <img src="images/portfolio-3.jpg" alt="" />
             </div>
-            <div class="image">
+            <div class="image wow animate__animated animate__fadeIn">
               <img src="images/portfolio-4.jpg" alt="" />
             </div>
-            <div class="image">
+            <div class="image wow animate__animated animate__fadeIn">
               <img src="images/portfolio-5.jpg" alt="" />
             </div>
-            <div class="image">
+            <div class="image wow animate__animated animate__fadeIn">
               <img src="images/portfolio-6.jpg" alt="" />
             </div>
           </div>
@@ -194,5 +216,9 @@
       </div>
     </footer>
     <script src="scripts/app.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
